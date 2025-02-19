@@ -118,14 +118,14 @@
 
 document.getElementById('downloadButton').addEventListener('click', function() {
     var link = document.createElement('a');
-    link.href = '../resume.pdf';  // Replace with the actual path to your CV file
+    link.href = 'resume.pdf';  // Replace with the actual path to your CV file
     link.download = 'Resume.pdf';  // Replace with the desired name for the downloaded file
     link.click();
 });
 
 document.getElementById('downloadButton1').addEventListener('click', function() {
     var link = document.createElement('a');
-    link.href = '../resume.pdf';  // Replace with the actual path to your CV file
+    link.href = 'resume.pdf';  // Replace with the actual path to your CV file
     link.download = 'Resume.pdf';  // Replace with the desired name for the downloaded file
     link.click();
 });
