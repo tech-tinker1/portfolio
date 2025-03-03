@@ -146,7 +146,7 @@ document.getElementById('openInstaButton').addEventListener('click', function() 
 
 document.getElementById('youtubevid').addEventListener('click', function() {
     var link = document.createElement('a');
-    link.href = 'https://youtu.be/buh2AO4Nc5Y?si=ZwSCszY_9adjHP-W';  // Replace with your LinkedIn URL
+    link.href = 'https://www.youtube.com/@kubaibsamadull2127';  // Replace with your LinkedIn URL
     link.target = '_blank';  // This opens the link in a new tab
     link.click();
 });
