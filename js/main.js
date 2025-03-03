@@ -144,5 +144,12 @@ document.getElementById('openInstaButton').addEventListener('click', function() 
     link.click();
 });
 
+document.getElementById('youtubevid').addEventListener('click', function() {
+    var link = document.createElement('a');
+    link.href = 'https://youtu.be/buh2AO4Nc5Y?si=ZwSCszY_9adjHP-W';  // Replace with your LinkedIn URL
+    link.target = '_blank';  // This opens the link in a new tab
+    link.click();
+});
+
 
 
