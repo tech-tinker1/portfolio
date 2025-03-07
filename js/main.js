@@ -151,5 +151,10 @@ document.getElementById('youtubevid').addEventListener('click', function() {
     link.click();
 });
 
-
+function openfigma(linkss){
+    var link = document.createElement('a');
+    link.href = linkss;  // Replace with your LinkedIn URL
+    link.target = '_blank';  // This opens the link in a new tab
+    link.click();
+}
 

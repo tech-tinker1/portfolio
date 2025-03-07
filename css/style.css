@@ -6355,7 +6355,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #0BCEAF !important;
+  background-color: #0bceaf73 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -7439,6 +7439,10 @@ button.bg-dark:focus {
 
 .position-relative {
   position: relative !important;
+}
+
+.border-radius {
+    border-radius: 18px;
 }
 
 .position-absolute {
